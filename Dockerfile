@@ -18,8 +18,10 @@ RUN pip install \
     pymongo \
     pymssql \
     pyodbc \
-    mysqlclient
-
+    mysqlclient \
+    pybigquery \
+    pandas-gbq
+    
 ENV ADMIN_USERNAME $ADMIN_USERNAME
 ENV ADMIN_EMAIL $ADMIN_EMAIL
 ENV ADMIN_PASSWORD $ADMIN_PASSWORD
